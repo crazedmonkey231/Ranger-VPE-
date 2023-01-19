@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<!-- ############################################################################################################### -->
+	<!-- ############################################################################################################### -->
+	<!-- ############################################################################################################### -->
+    <HediffDef ParentName="PsycastHediffBase">
+        <defName>Hediff_EagleEye</defName>
+        <label>eagle eye</label>
+		<description>Ranged weapons this pawn uses for the next 1 hour, gains double range.</description>
+        <initialSeverity>1</initialSeverity>
+        <isBad>false</isBad>
+		<stages>
+            <li>
+                <minSeverity>1.0</minSeverity>
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <offset>0.05</offset>
+                    </li>
+                    <li>
+                        <capacity>Sight</capacity>
+                        <offset>0.05</offset>
+                    </li>
+                </capMods>
+			</li>
+		</stages>
+    </HediffDef>
+	<!-- ############################################################################################################### -->
+	<!-- ############################################################################################################### -->
+	<!-- ############################################################################################################### -->
+    <HediffDef ParentName="PsycastHediffBase">
+        <defName>Hediff_Serrated_Arrows</defName>
+        <label>serrated arrows</label>
+		<description>Ranged weapons this pawn uses for the next 1 hour, deals bonus damage that ignores armor.</description>
+        <initialSeverity>1</initialSeverity>
+        <isBad>false</isBad>
+		<stages>
+            <li>
+                <minSeverity>1.0</minSeverity>
+                <capMods>
+                    <li>
+                        <capacity>Sight</capacity>
+                        <offset>0.05</offset>
+                    </li>
+                </capMods>
+			</li>
+		</stages>
+    </HediffDef>
+	<!-- ############################################################################################################### -->
+	<!-- ############################################################################################################### -->
+	<!-- ############################################################################################################### -->	
+    <HediffDef ParentName="PsycastHediffBase">
+        <defName>Hediff_Thunder_Arrows</defName>
+        <label>thunder arrows</label>
+		<description>Ranged weapons this pawn uses for the next 1 hour, projectiles deal additional EMP damage.</description>
+        <initialSeverity>1</initialSeverity>
+        <isBad>false</isBad>
+		<stages>
+            <li>
+                <minSeverity>1.0</minSeverity>
+                <capMods>
+                    <li>
+                        <capacity>Sight</capacity>
+                        <offset>0.05</offset>
+                    </li>
+                </capMods>
+			</li>
+		</stages>
+    </HediffDef>
+	<!-- ############################################################################################################### -->
+	<!-- ############################################################################################################### -->
+	<!-- ############################################################################################################### -->	
+    <HediffDef ParentName="PsycastHediffBase">
+        <defName>Hediff_Frost_Arrows</defName>
+        <label>frost arrows</label>
+		<description>Ranged weapons this pawn uses for the next 1 hour, projectiles deal additional frost damage.</description>
+        <initialSeverity>1</initialSeverity>
+        <isBad>false</isBad>
+		<stages>
+            <li>
+                <minSeverity>1.0</minSeverity>
+                <capMods>
+                    <li>
+                        <capacity>Sight</capacity>
+                        <offset>0.05</offset>
+                    </li>
+                </capMods>
+			</li>
+		</stages>
+    </HediffDef>
+	<!-- ############################################################################################################### -->
+	<!-- ############################################################################################################### -->
+	<!-- ############################################################################################################### -->
+    <HediffDef ParentName="PsycastHediffBase">
+        <defName>Hediff_Fire_Arrows</defName>
+        <label>fire arrows</label>
+		<description>Ranged weapons this pawn uses for the next 1 hour, projectiles deal additional fire damage.</description>
+        <initialSeverity>1</initialSeverity>
+        <isBad>false</isBad>
+		<stages>
+            <li>
+                <minSeverity>1.0</minSeverity>
+                <capMods>
+                    <li>
+                        <capacity>Sight</capacity>
+                        <offset>0.05</offset>
+                    </li>
+                </capMods>
+			</li>
+		</stages>
+    </HediffDef>	
+	<!-- ############################################################################################################### -->
+	<!-- ############################################################################################################### -->
+	<!-- ############################################################################################################### -->	
+    <HediffDef ParentName="PsycastHediffBase">
+        <defName>Hediff_Chemical_Arrows</defName>
+        <label>chemical arrows</label>
+		<description>Ranged weapons this pawn uses for the next 1 hour, projectiles deal additional toxic damage.</description>
+        <initialSeverity>1</initialSeverity>
+        <isBad>false</isBad>
+		<stages>
+            <li>
+                <minSeverity>1.0</minSeverity>
+                <capMods>
+                    <li>
+                        <capacity>Sight</capacity>
+                        <offset>0.05</offset>
+                    </li>
+                </capMods>
+			</li>
+		</stages>
+    </HediffDef>
+	<!-- ############################################################################################################### -->
+	<!-- ############################################################################################################### -->
+	<!-- ############################################################################################################### -->	
+    <HediffDef ParentName="PsycastHediffBase">
+        <defName>Hediff_Achilles_Strike</defName>
+        <label>achilles arrows</label>
+		<description>Ranged weapons this pawn uses for the next 1 hour, all shots with stun enemies.</description>
+        <initialSeverity>1</initialSeverity>
+        <isBad>false</isBad>
+		<stages>
+            <li>
+                <minSeverity>1.0</minSeverity>
+                <capMods>
+                    <li>
+                        <capacity>Sight</capacity>
+                        <offset>0.05</offset>
+                    </li>
+                </capMods>
+			</li>
+		</stages>
+    </HediffDef>
+	<!-- ############################################################################################################### -->
+	<!-- ############################################################################################################### -->
+	<!-- ############################################################################################################### -->
+    <HediffDef ParentName="PsycastHediffBase">
+        <defName>Hediff_True_Strike</defName>
+        <label>true strike arrows</label>
+		<description>Ranged weapons this pawn uses for the next 1 hour, will be all headshots.</description>
+        <initialSeverity>1</initialSeverity>
+        <isBad>false</isBad>
+		<stages>
+            <li>
+                <minSeverity>1.0</minSeverity>
+                <capMods>
+                    <li>
+                        <capacity>Sight</capacity>
+                        <offset>0.05</offset>
+                    </li>
+                </capMods>
+			</li>
+		</stages>
+    </HediffDef>
+	<!-- ############################################################################################################### -->
+	<!-- ############################################################################################################### -->
+	<!-- ############################################################################################################### -->
+    <HediffDef ParentName="PsycastHediffBase">
+        <defName>Hediff_Rod_From_God</defName>
+        <label>rod from god</label>
+		<description>Calls down a massive metal rod from high in the atmosphere striking with the force of an anti-grain warhead.</description>
+        <initialSeverity>1</initialSeverity>
+        <isBad>false</isBad>
+		<stages>
+            <li>
+                <minSeverity>1.0</minSeverity>
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <offset>0.05</offset>
+                    </li>
+                </capMods>
+			</li>
+		</stages>
+    </HediffDef>
+</Defs>

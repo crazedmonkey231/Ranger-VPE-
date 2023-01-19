@@ -1,0 +1,6 @@
+F:\Program Files (x86)\Steam\SteamApps\common\RimWorld\Mods\Ranger (VPE)\1.4\Assemblies\Ranger.dll
+F:\Program Files (x86)\Steam\SteamApps\common\RimWorld\Mods\Ranger (VPE)\1.4\Assemblies\Ranger.pdb
+F:\Program Files (x86)\Steam\SteamApps\common\RimWorld\Mods\Ranger (VPE)\Source\Ranger\obj\Debug\Ranger.csproj.AssemblyReference.cache
+F:\Program Files (x86)\Steam\SteamApps\common\RimWorld\Mods\Ranger (VPE)\Source\Ranger\obj\Debug\Ranger.csproj.CoreCompileInputs.cache
+F:\Program Files (x86)\Steam\SteamApps\common\RimWorld\Mods\Ranger (VPE)\Source\Ranger\obj\Debug\Ranger.dll
+F:\Program Files (x86)\Steam\SteamApps\common\RimWorld\Mods\Ranger (VPE)\Source\Ranger\obj\Debug\Ranger.pdb

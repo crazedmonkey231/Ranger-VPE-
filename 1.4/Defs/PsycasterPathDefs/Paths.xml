@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <VanillaPsycastsExpanded.PsycasterPathDef>
+    <defName>Ranger_Path</defName>
+    <label>ranger</label>
+    <description>Powerful ranged attack manipulation.</description>
+    <background>UI/ranger_trees</background>
+    <altBackground>UI/ranger_trees</altBackground>
+    <tab>Psycasts</tab>
+    <tooltip>Powerful ranged attack manipulation.</tooltip>
+  </VanillaPsycastsExpanded.PsycasterPathDef>
+</Defs>

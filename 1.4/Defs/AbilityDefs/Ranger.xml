@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<!-- ############################################################################################################### -->
+	<!-- ############################################################################################################### -->
+	<!-- ############################################################################################################### -->
+    <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
+        <defName>Ranger_Eagle_Eye</defName>
+        <label>eagle eye</label>
+        <description>Ranged weapons this pawn uses for the next 1 hour, gain double range.</description>
+		<abilityClass>Ranger.RangerAbilities.Ability_EagleEye</abilityClass>
+        <iconPath>UI/eye-target</iconPath>
+        <needsTicking>false</needsTicking>
+        <castTime>50</castTime>
+        <targetMode>Self</targetMode>
+		<durationTime>2500</durationTime>
+        <modExtensions>
+            <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
+                <path>Ranger_Path</path>
+                <level>1</level>
+                <order>1</order>
+                <psyfocusCost>0</psyfocusCost>
+                <entropyGain>0</entropyGain>
+            </li>
+			<li Class="VFECore.Abilities.AbilityExtension_Hediff">
+				<hediff>Hediff_EagleEye</hediff>
+				<bodyPartToApply>Brain</bodyPartToApply>
+			</li>
+        </modExtensions>
+    </VFECore.Abilities.AbilityDef>
+	<!-- ############################################################################################################### -->
+	<!-- ############################################################################################################### -->
+	<!-- ############################################################################################################### -->
+    <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
+        <defName>Ranger_Serrated_Arrows</defName>
+        <label>serrated arrows</label>
+        <description>Ranged weapons this pawn uses for the next 1 hour, projectiles deal bonus damage that ignores armor.</description>
+		<abilityClass>Ranger.RangerAbilities.Ability_RangerBase</abilityClass>
+        <iconPath>UI/spotted-arrowhead</iconPath>
+        <needsTicking>false</needsTicking>
+        <castTime>50</castTime>
+        <targetMode>Self</targetMode>
+		<durationTime>2500</durationTime>
+        <modExtensions>
+            <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
+                <path>Ranger_Path</path>
+                <level>2</level>
+                <order>1</order>
+                <psyfocusCost>0</psyfocusCost>
+                <entropyGain>0</entropyGain>
+				<prerequisites>
+					<li>Ranger_Eagle_Eye</li>
+				</prerequisites>
+            </li>
+			<li Class="VFECore.Abilities.AbilityExtension_Hediff">
+				<hediff>Hediff_Serrated_Arrows</hediff>
+				<bodyPartToApply>Brain</bodyPartToApply>
+			</li>
+        </modExtensions>
+    </VFECore.Abilities.AbilityDef>
+	<!-- ############################################################################################################### -->
+	<!-- ############################################################################################################### -->
+	<!-- ############################################################################################################### -->
+    <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
+        <defName>Ranger_Thunder_Arrows</defName>
+        <label>thunder arrows</label>
+        <description>Ranged weapons this pawn uses for the next 1 hour, projectiles deal additional EMP damage.</description>
+		<abilityClass>Ranger.RangerAbilities.Ability_RangerBase</abilityClass>
+        <iconPath>UI/charged-arrow</iconPath>
+        <needsTicking>false</needsTicking>
+        <castTime>50</castTime>
+        <targetMode>Self</targetMode>
+		<durationTime>2500</durationTime>
+        <modExtensions>
+            <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
+                <path>Ranger_Path</path>
+                <level>3</level>
+                <order>1</order>
+                <psyfocusCost>0</psyfocusCost>
+                <entropyGain>0</entropyGain>
+				<prerequisites>
+					<li>Ranger_Serrated_Arrows</li>
+				</prerequisites>
+            </li>
+			<li Class="VFECore.Abilities.AbilityExtension_Hediff">
+				<hediff>Hediff_Thunder_Arrows</hediff>
+				<bodyPartToApply>Brain</bodyPartToApply>
+			</li>
+        </modExtensions>
+    </VFECore.Abilities.AbilityDef>	
+	<!-- ############################################################################################################### -->
+	<!-- ############################################################################################################### -->
+	<!-- ############################################################################################################### -->
+    <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
+        <defName>Ranger_Frost_Arrows</defName>
+        <label>frost arrows</label>
+        <description>Ranged weapons this pawn uses for the next 1 hour, projectiles deal additional frost damage.</description>
+		<abilityClass>Ranger.RangerAbilities.Ability_RangerBase</abilityClass>
+        <iconPath>UI/frozen-arrow</iconPath>
+        <needsTicking>false</needsTicking>
+        <castTime>50</castTime>
+        <targetMode>Self</targetMode>
+		<durationTime>2500</durationTime>
+        <modExtensions>
+            <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
+                <path>Ranger_Path</path>
+                <level>3</level>
+                <order>2</order>
+                <psyfocusCost>0</psyfocusCost>
+                <entropyGain>0</entropyGain>
+				<prerequisites>
+					<li>Ranger_Serrated_Arrows</li>
+				</prerequisites>
+            </li>
+			<li Class="VFECore.Abilities.AbilityExtension_Hediff">
+				<hediff>Hediff_Frost_Arrows</hediff>
+				<bodyPartToApply>Brain</bodyPartToApply>
+			</li>
+        </modExtensions>
+    </VFECore.Abilities.AbilityDef>
+	<!-- ############################################################################################################### -->
+	<!-- ############################################################################################################### -->
+	<!-- ############################################################################################################### -->
+    <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
+        <defName>Ranger_Fire_Arrows</defName>
+        <label>fire arrows</label>
+        <description>Ranged weapons this pawn uses for the next 1 hour, projectiles deal additional fire damage.</description>
+		<abilityClass>Ranger.RangerAbilities.Ability_RangerBase</abilityClass>
+        <iconPath>UI/fire-arrow</iconPath>
+        <needsTicking>false</needsTicking>
+        <castTime>50</castTime>
+        <targetMode>Self</targetMode>
+		<durationTime>2500</durationTime>
+        <modExtensions>
+            <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
+                <path>Ranger_Path</path>
+                <level>3</level>
+                <order>3</order>
+                <psyfocusCost>0</psyfocusCost>
+                <entropyGain>0</entropyGain>
+				<prerequisites>
+					<li>Ranger_Serrated_Arrows</li>
+				</prerequisites>
+            </li>
+			<li Class="VFECore.Abilities.AbilityExtension_Hediff">
+				<hediff>Hediff_Fire_Arrows</hediff>
+				<bodyPartToApply>Brain</bodyPartToApply>
+			</li>
+        </modExtensions>
+    </VFECore.Abilities.AbilityDef>
+	<!-- ############################################################################################################### -->
+	<!-- ############################################################################################################### -->
+	<!-- ############################################################################################################### -->
+    <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
+        <defName>Ranger_Chemical_Arrows</defName>
+        <label>chemical arrows</label>
+        <description>Ranged weapons this pawn uses for the next 1 hour, projectiles deal additional toxic damage.</description>
+		<abilityClass>Ranger.RangerAbilities.Ability_RangerBase</abilityClass>
+        <iconPath>UI/chemical-arrow</iconPath>
+        <needsTicking>false</needsTicking>
+        <castTime>50</castTime>
+        <targetMode>Self</targetMode>
+		<durationTime>2500</durationTime>
+        <modExtensions>
+            <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
+                <path>Ranger_Path</path>
+                <level>4</level>
+                <order>1</order>
+                <psyfocusCost>0</psyfocusCost>
+                <entropyGain>0</entropyGain>
+				<prerequisites>
+					<li>Ranger_Thunder_Arrows</li>
+					<li>Ranger_Frost_Arrows</li>
+					<li>Ranger_Fire_Arrows</li>
+				</prerequisites>
+            </li>
+			<li Class="VFECore.Abilities.AbilityExtension_Hediff">
+				<hediff>Hediff_Chemical_Arrows</hediff>
+				<bodyPartToApply>Brain</bodyPartToApply>
+			</li>
+        </modExtensions>
+    </VFECore.Abilities.AbilityDef>
+	<!-- ############################################################################################################### -->
+	<!-- ############################################################################################################### -->
+	<!-- ############################################################################################################### -->
+    <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
+        <defName>Ranger_Achilles_Strike</defName>
+        <label>achilles strike</label>
+        <description>Ranged weapons this pawn uses for the next 1 hour, all shots with stun enemies.</description>
+		<abilityClass>Ranger.RangerAbilities.Ability_RangerBase</abilityClass>
+        <iconPath>UI/achilles-heel</iconPath>
+        <needsTicking>false</needsTicking>
+        <castTime>50</castTime>
+        <targetMode>Self</targetMode>
+		<durationTime>2500</durationTime>
+        <modExtensions>
+            <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
+                <path>Ranger_Path</path>
+                <level>5</level>
+                <order>1</order>
+                <psyfocusCost>0</psyfocusCost>
+                <entropyGain>0</entropyGain>
+				<prerequisites>
+					<li>Ranger_Chemical_Arrows</li>
+				</prerequisites>
+            </li>
+			<li Class="VFECore.Abilities.AbilityExtension_Hediff">
+				<hediff>Hediff_Achilles_Strike</hediff>
+				<bodyPartToApply>Brain</bodyPartToApply>
+			</li>
+        </modExtensions>
+    </VFECore.Abilities.AbilityDef>
+	<!-- ############################################################################################################### -->
+	<!-- ############################################################################################################### -->
+	<!-- ############################################################################################################### -->
+    <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
+        <defName>Ranger_True_Strike</defName>
+        <label>true strike</label>
+        <description>Ranged weapons this pawn uses for the next 1 hour, will be all headshots.</description>
+		<abilityClass>Ranger.RangerAbilities.Ability_RangerBase</abilityClass>
+        <iconPath>UI/william-tell-skull</iconPath>
+        <needsTicking>false</needsTicking>
+        <castTime>50</castTime>
+        <targetMode>Self</targetMode>
+		<durationTime>2500</durationTime>
+        <modExtensions>
+            <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
+                <path>Ranger_Path</path>
+                <level>5</level>
+                <order>2</order>
+                <psyfocusCost>0</psyfocusCost>
+                <entropyGain>0</entropyGain>
+				<prerequisites>
+					<li>Ranger_Chemical_Arrows</li>
+				</prerequisites>
+            </li>
+			<li Class="VFECore.Abilities.AbilityExtension_Hediff">
+				<hediff>Hediff_True_Strike</hediff>
+				<bodyPartToApply>Brain</bodyPartToApply>
+			</li>
+        </modExtensions>
+    </VFECore.Abilities.AbilityDef>
+	<!-- ############################################################################################################### -->
+	<!-- ############################################################################################################### -->
+	<!-- ############################################################################################################### -->
+    <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
+        <defName>Ranger_Rod_From_God</defName>
+        <label>rod from god</label>
+        <description>Calls down a massive metal rod from high in the atmosphere striking with the force of an anti-grain warhead.</description>
+		<abilityClass>Ranger.RangerAbilities.Ability_RangerBase</abilityClass>
+        <iconPath>UI/supersonic-arrow</iconPath>
+        <needsTicking>false</needsTicking>
+        <castTime>50</castTime>
+        <targetMode>Self</targetMode>
+		<durationTime>2500</durationTime>
+        <modExtensions>
+            <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
+                <path>Ranger_Path</path>
+                <level>6</level>
+                <order>1</order>
+                <psyfocusCost>0</psyfocusCost>
+                <entropyGain>0</entropyGain>
+				<prerequisites>
+					<li>Ranger_True_Strike</li>
+					<li>Ranger_Achilles_Strike</li>
+				</prerequisites>
+            </li>
+			<li Class="VFECore.Abilities.AbilityExtension_Hediff">
+				<hediff>Hediff_Rod_From_God</hediff>
+				<bodyPartToApply>Brain</bodyPartToApply>
+			</li>
+        </modExtensions>
+    </VFECore.Abilities.AbilityDef>
+</Defs>

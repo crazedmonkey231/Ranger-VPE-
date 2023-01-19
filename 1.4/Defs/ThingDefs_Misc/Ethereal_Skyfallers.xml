@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <ThingDef ParentName="SkyfallerBase">
+        <defName>Rod_From_God_Incoming</defName>
+        <label>rod from god (incoming)</label>
+        <size>(2, 2)</size>
+        <skyfaller>
+            <shadowSize>(2.5, 2.5)</shadowSize>
+            <explosionRadius>10</explosionRadius>
+            <explosionDamage>Bomb</explosionDamage>
+            <explosionDamageFactor>0.5</explosionDamageFactor>
+        </skyfaller>
+    </ThingDef>
+</Defs>
