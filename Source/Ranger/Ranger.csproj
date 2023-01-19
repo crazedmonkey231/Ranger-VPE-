@@ -135,11 +135,13 @@
   <ItemGroup>
     <Compile Include="RangerAbilities\Ability_EagleEye.cs" />
     <Compile Include="RangerAbilities\Ability_RangerBase.cs" />
+    <Compile Include="RangerComps\Comp_RangerTrails.cs" />
     <Compile Include="RangerDefOf.cs" />
     <Compile Include="RangerMod.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RangerPatches\AdjustedRange_Patch.cs" />
     <Compile Include="RangerPatches\Projectile_Patch.cs" />
+    <Compile Include="RangerPatches\Projectile_Spawn_Patch.cs" />
     <Compile Include="RangerSettings.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

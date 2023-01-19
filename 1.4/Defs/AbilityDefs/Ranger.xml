@@ -245,7 +245,7 @@
     <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
         <defName>Ranger_Rod_From_God</defName>
         <label>rod from god</label>
-        <description>Calls down a massive metal rod from high in the atmosphere striking with the force of an anti-grain warhead.</description>
+        <description>Kinetic Orbital Strike aka "Rod from God", this ability links you to the orbital strike network allowing your bullet impact locations on pawns to be beamed onto the network automatically triggering the drop of a massive metal rod from high in the atmosphere with the striking force of an anti-grain warhead.</description>
 		<abilityClass>Ranger.RangerAbilities.Ability_RangerBase</abilityClass>
         <iconPath>UI/supersonic-arrow</iconPath>
         <needsTicking>false</needsTicking>

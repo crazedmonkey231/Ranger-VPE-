@@ -22,5 +22,13 @@ namespace Ranger
         public static HediffDef Hediff_Achilles_Strike;
         public static HediffDef Hediff_True_Strike;
         public static HediffDef Hediff_Rod_From_God;
+
+        public static FleckDef Ranger_MicroSparks;
+        public static FleckDef Ranger_Smoke;
+        public static FleckDef Ranger_Smoke_Green;
+        public static FleckDef Ranger_Smoke_Orange;
+        public static FleckDef Ranger_Smoke_Blue;
+        public static FleckDef Ranger_Smoke_Red;
+        public static FleckDef Ranger_Smoke_Yellow;
     }
 }

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<FleckDef ParentName="FleckBase_Thrown" Name="MicroSparks">
+		<defName>Ranger_MicroSparks</defName>
+		<graphicData>
+			<texPath>Things/Mote/MicroSparks</texPath>
+			<shaderType>MoteGlow</shaderType>
+		</graphicData>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+        <fadeInTime>0.25</fadeInTime>
+		<solidTime>0.1</solidTime>
+		<fadeOutTime>0.1</fadeOutTime>
+		<growthRate>0.005</growthRate>
+	</FleckDef>
+
+    <FleckDef ParentName="FleckBase_Thrown">
+        <defName>Ranger_Smoke</defName>
+        <graphicData>
+            <texPath>Things/Mote/Smoke</texPath>
+            <renderInstanced>true</renderInstanced>
+			<drawSize>(1.5, 1.5)</drawSize>
+        </graphicData>
+        <altitudeLayer>MoteOverhead</altitudeLayer>
+        <fadeInTime>0.25</fadeInTime>
+		<solidTime>0.1</solidTime>
+		<fadeOutTime>0.1</fadeOutTime>
+		<growthRate>0.005</growthRate>
+    </FleckDef>
+	
+    <FleckDef ParentName="FleckBase_Thrown">
+        <defName>Ranger_Smoke_Green</defName>
+        <graphicData>
+            <texPath>Things/Mote/Smoke</texPath>
+            <renderInstanced>true</renderInstanced>
+			<color>(111, 255, 0)</color>
+			<drawSize>(1.5, 1.5)</drawSize>
+        </graphicData>
+        <altitudeLayer>MoteOverhead</altitudeLayer>
+        <fadeInTime>0.25</fadeInTime>
+		<solidTime>0.1</solidTime>
+		<fadeOutTime>0.1</fadeOutTime>
+		<growthRate>0.005</growthRate>
+    </FleckDef>
+	
+    <FleckDef ParentName="FleckBase_Thrown">
+        <defName>Ranger_Smoke_Orange</defName>
+        <graphicData>
+            <texPath>Things/Mote/Smoke</texPath>
+            <renderInstanced>true</renderInstanced>
+			<color>(255, 123, 0)</color>
+			<drawSize>(1.5, 1.5)</drawSize>
+        </graphicData>
+        <altitudeLayer>MoteOverhead</altitudeLayer>
+        <fadeInTime>0.25</fadeInTime>
+		<solidTime>0.1</solidTime>
+		<fadeOutTime>0.1</fadeOutTime>
+		<growthRate>0.005</growthRate>
+    </FleckDef>	
+	
+    <FleckDef ParentName="FleckBase_Thrown">
+        <defName>Ranger_Smoke_Blue</defName>
+        <graphicData>
+            <texPath>Things/Mote/Smoke</texPath>
+            <renderInstanced>true</renderInstanced>
+			<color>(0, 179, 255)</color>
+			<drawSize>(1.5, 1.5)</drawSize>
+        </graphicData>
+        <altitudeLayer>MoteOverhead</altitudeLayer>
+        <fadeInTime>0.25</fadeInTime>
+		<solidTime>0.1</solidTime>
+		<fadeOutTime>0.1</fadeOutTime>
+		<growthRate>0.005</growthRate>
+    </FleckDef>
+
+    <FleckDef ParentName="FleckBase_Thrown">
+        <defName>Ranger_Smoke_Red</defName>
+        <graphicData>
+            <texPath>Things/Mote/Smoke</texPath>
+            <renderInstanced>true</renderInstanced>
+			<color>(255, 0, 0)</color>
+			<drawSize>(1.5, 1.5)</drawSize>
+        </graphicData>
+        <altitudeLayer>MoteOverhead</altitudeLayer>
+        <fadeInTime>0.25</fadeInTime>
+		<solidTime>0.1</solidTime>
+		<fadeOutTime>0.1</fadeOutTime>
+		<growthRate>0.005</growthRate>
+    </FleckDef>
+
+    <FleckDef ParentName="FleckBase_Thrown">
+        <defName>Ranger_Smoke_Yellow</defName> 
+        <graphicData>
+            <texPath>Things/Mote/Smoke</texPath>
+            <renderInstanced>true</renderInstanced>
+			<color>(255, 238, 0)</color>
+			<drawSize>(1.5, 1.5)</drawSize>
+        </graphicData>
+        <altitudeLayer>MoteOverhead</altitudeLayer>
+        <fadeInTime>0.25</fadeInTime>
+		<solidTime>0.1</solidTime>
+		<fadeOutTime>0.1</fadeOutTime>
+		<growthRate>0.005</growthRate>
+    </FleckDef>
+</Defs>
